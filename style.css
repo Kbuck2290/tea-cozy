@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    margin: 0;
+}
+
+header{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    height: 69px; 
+    border-bottom: 1px solid seashell; 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+a{
+    color: seashell;
+} 
+
+header img{
+    height: 50px; 
+    margin-left: 10px;
+} 
+
+nav a{
+    padding: 0 15px;
+} 
+
+#mission{
+    width: 1200px;
+    height: 700px; 
+    background: url(../images/mission-background.jpg); 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+} 
+
+.mission-content{
+    background-color: black;  
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+
+} 
+
+main{
+    padding-top: 70px;
+
+} 
+
+.product-container{
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    align-content: flex-start;
+
+} 
+
+.product-container img{
+    width: 300px; 
+    height: 200px; 
+    margin-bottom: 10px;
+} 
+
+.product-container figcaption{
+    text-align: center;
+} 
+
+#featured-tea h2,
+#featured-tea h3{
+    text-align: center;
+} 
+
+#featured-tea{ 
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;  
+    flex-direction: column;
+} 
+
+.product-container figure{
+    margin: 10px 10px;
+} 
+
+.location-container{
+    display: flex; 
+    margin: 0 auto; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.location-card{
+    background-color: black; 
+    width: 300px; 
+    margin: 0px 15px; 
+    text-align: center; 
+    line-height: 2;
+} 
+
+#locations h2{
+    text-align: center;
+} 
+
+#locations{
+    background: url(../images/locations-background.jpg); 
+    height: 500px; 
+    width: 1200px; 
+    margin: 0 auto; 
+    padding-top: 40px; 
+    box-sizing: border-box;
+} 
+
+footer{
+    text-align: center; 
+    height: 200px; 
+} 
+
+footer p{
+    text-align: left; 
+    margin-left: 20px;
+}

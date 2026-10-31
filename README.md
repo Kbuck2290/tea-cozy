@@ -53,4 +53,12 @@ Through this project, I gained hands-on experience with:
 
 **Completed — October 2026**
 
-Built as part of my
+Built as part of my journey toward becoming a professional software engineer through Codecademy's Front-End Engineer Career Path.
+
+Author
+
+Kyle Buckley
+
+GitHub
+
+Tea Cozy Repository
